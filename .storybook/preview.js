@@ -1,6 +1,6 @@
 import { ThemeProvider } from 'styled-components'
-import GlobalStyles from '../src/styles/global'
-import theme from '../src/styles/theme'
+import GlobalStyles from 'styles/global'
+import theme from 'styles/theme'
 import { RouterContext } from 'next/dist/shared/lib/router-context' // next 12
 
 export const parameters = {
