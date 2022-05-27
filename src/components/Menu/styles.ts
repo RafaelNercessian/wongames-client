@@ -14,7 +14,16 @@ export const LogoWrapper = styled.div`
   ${media.lessThan('medium')`
     position: absolute;
     left: 50%;
-    transform: translateX(-50%)
+    transform: translateX(-50%);
+  `}
+`
+
+export const IconWrapper = styled.div`
+  ${({ theme }) => css`
+    color: ${theme.colors.white};
+    cursor: pointer;
+    width: 2.4rem;
+    height: 2.4rem;
   `}
 `
 
@@ -30,11 +39,12 @@ export const MenuGroup = styled.div`
   `}
 `
 
-export const IconWrapper = styled.div`
-  ${({ theme }) => css`
-    color: ${theme.colors.white};
-    width: 2.4rem;
-    height: 2.4rem;
-    cursor: pointer;
+type MenuFullProps = {
+  isOpen: boolean
+}
+
+export const MenuFull = styled.nav<MenuFullProps>`
+  ${({ isOpen }) => css`
+    opacity: ${isOpen ? 1 : 0};
   `}
 `
