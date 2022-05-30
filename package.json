@@ -23,20 +23,24 @@
     ]
   },
   "dependencies": {
+    "-": "^0.0.1",
     "@styled-icons/fa-brands": "10.34.0",
     "@styled-icons/material-outlined": "10.34.0",
     "@styled-icons/remix-fill": "10.18.0",
+    "@types/react-slick": "0.23.4",
+    "D": "^1.0.0",
     "next": "12.0.10",
     "next-pwa": "^5.3.1",
     "polished": "3.6.6",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-slick": "0.27.11",
     "styled-components": "5.3.3",
     "styled-media-query": "2.1.2"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "6.4.17",
-    "@storybook/builder-webpack5": "^6.4.17",
+    "@storybook/builder-webpack5": "^6.5.6",
     "@storybook/manager-webpack5": "^6.4.17",
     "@storybook/react": "6.4.17",
     "@testing-library/jest-dom": "^5.14.1",
