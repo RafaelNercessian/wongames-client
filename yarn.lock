@@ -1235,7 +1235,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.5":
+"@babel/runtime@^7.10.3", "@babel/runtime@^7.10.5":
   version "7.18.3"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.18.3.tgz#c7b654b57f6f63cf7f8b418ac9ca04408c4579f4"
   integrity sha512-38Y8f7YUhce/K7RMwTp7m0uCumpv9hZkitCbBClqQIow1qSbCvGkcegKOXpEWCQLfWmevgRiWokZ1GkpfhbZug==
@@ -2863,6 +2863,14 @@
   dependencies:
     "@babel/runtime" "^7.10.5"
     "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/styled-icon@10.6.0":
+  version "10.6.0"
+  resolved "https://registry.yarnpkg.com/@styled-icons/styled-icon/-/styled-icon-10.6.0.tgz#1eccbe047fee34b11aefe853492ed3d2f73faa23"
+  integrity sha512-aJ+KkrZq/yrpz3U76vN1IoB4Notr7DoVyzlwW2bJm+XYvLlzytRtHZduS2XePSAznC5vQJZn8Inuw11M7HAtRg==
+  dependencies:
+    "@babel/runtime" "^7.10.3"
+    "@emotion/is-prop-valid" "^0.8.7"
 
 "@styled-icons/styled-icon@^10.6.0", "@styled-icons/styled-icon@^10.6.3":
   version "10.6.3"
