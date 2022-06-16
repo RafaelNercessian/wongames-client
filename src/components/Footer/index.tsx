@@ -75,13 +75,13 @@ const Footer = () => (
         <Heading color="black" lineColor="secondary" lineBottom size="small">
           Location
         </Heading>
-        <span>Lorem ipsum dolor sit.</span>
-        <span>Lorem Ipsum</span>
-        <span>Lorem, ipsum dolor.</span>
+        <span>Sao Paulo, SP - Brasil</span>
+        <span>Av. Faria Lima, 1541</span>
+        <span>04538-132</span>
       </S.Column>
     </S.Content>
 
-    <S.Copyright>Won Games 2020 © All rights reserved.</S.Copyright>
+    <S.Copyright>Won Games 2022 © All rights reserved.</S.Copyright>
   </S.Wrapper>
 )
 

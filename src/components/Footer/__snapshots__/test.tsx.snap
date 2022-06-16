@@ -256,20 +256,20 @@ exports[`<Footer /> should render 4 column topics 1`] = `
         Location
       </h2>
       <span>
-        Lorem ipsum dolor sit.
+        Sao Paulo, SP - Brasil
       </span>
       <span>
-        Lorem Ipsum
+        Av. Faria Lima, 1541
       </span>
       <span>
-        Lorem, ipsum dolor.
+        04538-132
       </span>
     </div>
   </div>
   <div
     class="c6"
   >
-    Won Games 2020 © All rights reserved.
+    Won Games 2022 © All rights reserved.
   </div>
 </footer>
 `
